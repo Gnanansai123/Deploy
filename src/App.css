@@ -7,16 +7,16 @@
   font-family: "Segoe UI", sans-serif;
 }
 
-.signup-container {
-  min-height: 100vh;
-  background: url("/background.jpg") no-repeat center center/cover;
+.page {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470")
+    no-repeat center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Glassmorphism card */
-.signup-card {
+.signup-box {
   width: 420px;
   padding: 40px;
   background: rgba(255, 255, 255, 0.15);
@@ -26,67 +26,61 @@
   color: #fff;
 }
 
-.signup-card h1 {
-  margin-bottom: 30px;
+.signup-box h1 {
+  margin-bottom: 25px;
   letter-spacing: 2px;
 }
 
-.field {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.field label {
-  font-size: 14px;
-  margin-bottom: 6px;
+.signup-box label {
   display: block;
+  text-align: left;
+  margin: 12px 0 5px;
+  font-size: 14px;
 }
 
-.field input {
+.signup-box input {
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: none;
   outline: none;
-  background: #cdeef5;
 }
 
 .signup-btn {
-  width: 100px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background: #0b2c3d;
+  background: #111;
   color: #fff;
   cursor: pointer;
-  margin: 20px 0;
 }
 
 .signup-btn:hover {
-  background: #134c66;
+  background: #000;
 }
 
 .forgot {
+  margin-top: 15px;
   font-size: 13px;
-  margin-bottom: 20px;
 }
 
 .forgot span {
-  cursor: pointer;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .social-text {
-  margin-bottom: 15px;
+  margin-top: 25px;
   font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
 }
 
 .social-icons i {
   margin: 0 10px;
-  cursor: pointer;
   font-size: 18px;
-}
-
-.social-icons i:hover {
-  color: #aadfff;
+  cursor: pointer;
 }

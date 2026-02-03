@@ -1,21 +1,16 @@
-import React from "react";
 import "./App.css";
 
-const Signup = () => {
+function App() {
   return (
-    <div className="signup-container">
-      <div className="signup-card">
+    <div className="page">
+      <div className="signup-box">
         <h1>SIGN UP</h1>
 
-        <div className="field">
-          <label>Username</label>
-          <input type="text" placeholder="enter username" />
-        </div>
+        <label>Username</label>
+        <input type="text" placeholder="enter username" />
 
-        <div className="field">
-          <label>Password</label>
-          <input type="password" placeholder="enter password" />
-        </div>
+        <label>Password</label>
+        <input type="password" placeholder="enter password" />
 
         <button className="signup-btn">signup</button>
 
@@ -33,6 +28,6 @@ const Signup = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Signup;
+export default App;
